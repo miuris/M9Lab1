@@ -1,2 +1,2 @@
-import { AlertBoxProps } from "../types";
-import { AlertType } from "../types";
+import { AlertBoxProps } from "../../types";
+import { AlertType } from "../../types";
