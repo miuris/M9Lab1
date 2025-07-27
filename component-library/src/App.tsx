@@ -1,7 +1,6 @@
 import './App.css';
 import UserProfileCard from './components/UserProfileCard/UserProfileCard';
-import AlertBoxProps from './components/AlertBox/AlertBox';
-import { type AlertType } from './types';
+import AlertBox from './AlertBox';
 
 
 
@@ -18,10 +17,10 @@ export default function App() {
         <p>GG has no children.</p>
         </UserProfileCard>
 
-        
-        <AlertBoxProps type={AletType}>
-
-        </AlertBoxProps>
+        {/*AlertBox*/}
+        <AlertBox type='error'>
+          Error: Enter valid .
+        </AlertBox>
     </section>
   )
 }
